@@ -84,7 +84,6 @@ const Hero = () => {
               loop
               playsInline
               preload="none"
-              poster="/images/video-preview.jpg"
             />
             {/* Optional glow overlay */}
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/10 to-cyan-400/5 pointer-events-none"></div>
