@@ -1,0 +1,98 @@
+{
+  "header": {
+    "navigation": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "contact_button": "Contact Us",
+    "language": {
+      "en": "EN",
+      "ar": "AR"
+    }
+  },
+  "hero": {
+    "heading_line1": "Empowering Your",
+    "heading_line2": "Digital Future",
+    "paragraph": "In a world evolving at the speed of light, where data has become the lifeblood of every organization, Mirginx stands as a trusted ally, delivering security and confidence in the face of today’s most complex digital threats. We don’t offer conventional solutions; we build intelligent, secure networks and design resilient digital infrastructures that empower organizations to keep their operations running seamlessly, even in the most challenging circumstances. Our mission is to give our clients peace of mind: uninterrupted connectivity, protected data, and business continuity without compromise.",
+    "button": "Get Started"
+  },
+  "services": {
+    "title": "Our Services",
+    "explore": "Explore more",
+    "cards": {
+      "0": {
+        "title": "Cyber Security Solutions",
+        "text": "We provide organizations with a cutting-edge digital shield against the rising tide of cyber threats:\n• Professional penetration testing and comprehensive vulnerability assessments.\n• Proactive defense systems against advanced cyberattacks.\n• Robust risk management strategies aligned with global standards (ISO, GDPR, NIST).\n• Regular security reports to enhance readiness and build trust with partners and clients."
+      },
+      "1": {
+        "title": "Networking Services",
+        "text": "We transform enterprise infrastructure into fully integrated, reliable, and flexible connectivity systems:\n• Design and development of modern networks that enable digital transformation.\n• Performance assessments to uncover vulnerabilities and boost efficiency.\n• Scalable connectivity solutions that grow alongside business expansion."
+      }
+    },
+    "key_features": {
+      "title": "What Sets Us Apart",
+      "points": [
+        " Fast execution without compromising quality",
+        " Integrated networking & security solutions",
+        " Deep regional expertise with global standards",
+        " Continuous innovation to stay future-ready",
+        " Dedicated long-term customer partnerships"
+      ]
+    },
+    "flexible_plans": {
+      "title": "Flexible Plans",
+      "description": "We deliver tailored connectivity and operation packages designed to fit businesses of every scale:",
+      "points": [
+        "Tailored packages for SMEs ensuring cost-effectiveness",
+        " Custom enterprise solutions for complex infrastructures",
+        " End-to-end scalable and adaptive support",
+        " Future-ready strategies for seamless scaling"
+      ]
+    },
+    "detail": {
+      "back": "Back",
+      "badges": ["Enterprise", "Secure", "Scalable"],
+      "buttons": {
+        "contact_sales": "Contact Sales",
+        "see_all_services": "See All Services"
+      },
+      "optional_features": [
+        { "icon": "✓", "title": "Fast Integration", "description": "Connect with existing systems quickly." },
+        { "icon": "🔒", "title": "Enterprise Security", "description": "Built-in controls and compliance-ready." }
+      ],
+      "no_image": "No image",
+      "solution_label": "Advanced solution",
+      "cta": {
+        "tailored_plan": "Want a tailored plan?",
+        "cta_text": "Our team can help you design the right architecture.",
+        "request_consultation": "Request Consultation"
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "paragraph": "MirginX is a pioneering technology company dedicated to providing advanced business applications, cyber security solutions, and enterprise networking services. We enable organizations to navigate the complexities of modern digital landscapes with scalable and intelligent infrastructure.",
+    "vision_title": "Our Vision",
+    "vision_paragraph": "To be the driving force behind building a secure, interconnected digital future in Egypt and the Middle East — where cybersecurity is not optional, but the very foundation of every successful organization. We strive to set the benchmark for advanced networking and cybersecurity solutions, enabling governments, enterprises, and institutions to grow with confidence in an increasingly challenging digital landscape.",
+    "mission_title": "Our Mission",
+    "mission_paragraph": "To empower our clients with innovative, intelligent, and reliable networking and cybersecurity solutions that put them in control of their digital future. We are committed to delivering secure, connected environments that transform threats into opportunities, ensure sustainable business growth, and keep our clients at the forefront of digital leadership.",
+    "button": "Get Started"
+  },
+   "contact": {
+    "title": "Get in Touch",
+    "heading": "Reach Out to Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "name_placeholder": "Your Name",
+    "email_placeholder": "Your@example.com",
+    "message_placeholder": "Write your message...",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Your message has been sent successfully! ✅",
+    "error": "Oops! Something went wrong. Please try again."
+  }
+  
+}
