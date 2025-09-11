@@ -12,7 +12,6 @@ const ServiceDetailDesignB = () => {
 
   const service = services.find((s) => s.id === id);
 
-  // const formattedText = service.text.split('\n');
   const formattedText = t(`services.cards.${service.id}.text`).split("\n");
   return (
     <Section className="!pt-0 bg-n-8">

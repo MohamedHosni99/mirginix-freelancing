@@ -34,10 +34,10 @@ const Header = () => {
   };
 
   return (
-    <div className={`fixed  top-0 left-0 w-full z-50 border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${openNavigation ? 'bg-n-8' : 'bg-n-8/90 backdrop-blur-sm'}`}>
-      <div className={`flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4 ${isRTL ? 'flex-row-reverse' : 'flex-row'}`}>
+    <div className={`fixed   top-0 left-0 w-full z-50 border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${openNavigation ? 'bg-n-8' : 'bg-n-8/90 backdrop-blur-sm'}`}>
+      <div className={`flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-2 ${isRTL ? 'flex-row-reverse' : 'flex-row'}`}>
         {/* Logo */}
-        <a className={`${isRTL ? 'w-[6rem] ml-auto' : 'w-[6rem] mr-auto'} block z-50 `} href="#hero">
+        <a className={`${isRTL ? 'w-[4.5rem] ml-auto' : 'w-[4.5rem] mr-auto'} block z-50 `} href="#hero">
           <img src="/logo.webp" alt="Logo" width={90} height={20} />
         </a>
 
@@ -50,7 +50,7 @@ const Header = () => {
                 to={item.url.replace("#", "")}
                 offset={-100}
                 onClick={handleClick}
-                className="cursor-pointer block relative font-code-2xl uppercase text-n-1 transition-colors hover:text-color-1 px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold lg:leading-5 xl:px-12"
+                className="cursor-pointer block relative font-code-2xl uppercase text-n-1 transition-colors hover:text-color-1 px-4 py-3 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold lg:leading-5 xl:px-8"
               >
                 {t(`header.navigation.${item.title.toLowerCase()}`)}
               </ScrollLink>

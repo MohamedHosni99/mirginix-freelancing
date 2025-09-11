@@ -93,6 +93,10 @@
     "sending": "Sending...",
     "success": "Your message has been sent successfully! ✅",
     "error": "Oops! Something went wrong. Please try again."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "follow_us": "Follow Us:"
   }
-  
+
 }

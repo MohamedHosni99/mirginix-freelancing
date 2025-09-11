@@ -1,11 +1,15 @@
 import Section from "./Section";
 import { socials, contactDetails } from "../constants";
 import logo from "/logo.webp";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t, i18n } = useTranslation();
+  const isRTL = i18n.language === "ar";
+
   return (
     <Section className="!px-0 !py-5 border-t border-n-6 backdrop-blur relative overflow-hidden">
-      <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
+      <div className="container flex lg:justify-between justify-center items-center gap-10 flex-col lg:flex-row">
         <div className="flex flex-col items-start gap-4 sm:items-start">
           <div className="flex mx-auto lg:mx-0 items-center">
             <img src={logo} width={100} height={100} alt="Logo" className="mb-4" />
@@ -20,8 +24,8 @@ const Footer = () => {
             ))}
           </div>
 
-          <div className="flex flex-col items-start gap-4">
-            <h3 className="text-n-3">Follow Us:</h3>
+          <div className={`flex flex-col ${isRTL ? "items-end" : "items-start"} gap-4`}>
+            <h3 className="text-n-3">{t("footer.follow_us")}</h3>
             <ul className="flex gap-5 flex-wrap">
               {socials.map((item) => (
                 <a
@@ -39,7 +43,7 @@ const Footer = () => {
         </div>
 
         <p className="caption text-n-4 lg:block mt-auto">
-          © {new Date().getFullYear()}. All rights reserved.
+          © {new Date().getFullYear()}. {t("footer.rights")}
         </p>
       </div>
 
