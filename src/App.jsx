@@ -14,7 +14,7 @@ const App = () => {
   return (
     <Suspense fallback={<Loader />}>
       <div className="pt-[4.75rem] lg:pt-[5.75rem] overflow-hidden">
-        <ScrollToTop />
+      <ScrollToTop />
         <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/service-detail/:id" element={<ServiceDetail />} />

@@ -4,7 +4,7 @@ import { services } from "../constants";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-const ServiceDetailDesignB = () => {
+const ServiceDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
@@ -169,4 +169,4 @@ const ServiceDetailDesignB = () => {
   );
 };
 
-export default ServiceDetailDesignB;
+export default ServiceDetail;
