@@ -25,7 +25,7 @@ export default function ScrollBehaviorManager() {
       doc.scrollTop = 0;
       body.scrollTop = 0;
       if (typeof window !== "undefined") {
-        window.scrollTo(100, 100);
+        window.scrollTo(0, 0);
       }
     }
 

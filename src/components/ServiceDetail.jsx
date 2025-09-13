@@ -16,7 +16,7 @@ const ServiceDetail = () => {
   return (
     <Section className="!pt-0 bg-n-8">
       <div
-        className="container mx-auto py-12 lg:py-12"
+        className="container mx-auto "
         dir={isRTL ? "rtl" : "ltr"}
       >
         <button

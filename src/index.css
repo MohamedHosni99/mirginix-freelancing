@@ -4,11 +4,16 @@
   --font-sora: "Sora", sans-serif;
   --font-code: "Source Code Pro", monospace;
   --font-grotesk: "Space Grotesk", sans-serif;
+  --header-h: 5rem;
 }
 
-html{
+html, body {
   scroll-behavior: smooth;
+  padding:0;
+  margin:0;
+  height:100%
 }
+
 
 @layer base {
   body {
