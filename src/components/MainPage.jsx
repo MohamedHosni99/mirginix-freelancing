@@ -7,7 +7,7 @@ import Footer from './Footer.jsx';
 
 const MainPage = () => {
   return (
-    <div className="pt-[4.75rem] lg:pt-[5.75rem] overflow-hidden">
+    <div className="pt-[4.75rem] lg:pt-[5.75rem] overflow-x-hidden">
         <Header/>
         <Hero />
         <Services />

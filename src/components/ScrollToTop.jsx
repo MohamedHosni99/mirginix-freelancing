@@ -1,12 +1,38 @@
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-export default function ScrollToTop() {
+
+export default function ScrollBehaviorManager() {
   const { pathname } = useLocation();
 
-  useEffect(() => {
-    // ✅ force instant scroll (no smooth)
-    window.scrollTo({ top: 0, behavior: "auto" });
+  useLayoutEffect(() => {
+    const doc = document.documentElement;
+    const body = document.body;
+
+   
+    const prevDocBehavior = doc.style.scrollBehavior;
+    const prevBodyBehavior = body.style.scrollBehavior;
+
+    if (pathname === "/" || pathname === "/#hero") {
+      doc.style.scrollBehavior = "smooth";
+      body.style.scrollBehavior = "smooth";
+
+    } else {
+      
+      doc.style.scrollBehavior = "auto";
+      body.style.scrollBehavior = "auto";
+
+      doc.scrollTop = 0;
+      body.scrollTop = 0;
+      if (typeof window !== "undefined") {
+        window.scrollTo(100, 100);
+      }
+    }
+
+    return () => {
+      doc.style.scrollBehavior = prevDocBehavior || "";
+      body.style.scrollBehavior = prevBodyBehavior || "";
+    };
   }, [pathname]);
 
   return null;

@@ -12,9 +12,10 @@ const ServiceDetail = lazy(() => import('./components/ServiceDetail.jsx'));
 const App = () => {
 
   return (
+ <>
+ <ScrollToTop />
     <Suspense fallback={<Loader />}>
       <div className="pt-[4.75rem] lg:pt-[5.75rem] overflow-hidden">
-      <ScrollToTop />
         <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/service-detail/:id" element={<ServiceDetail />} />
@@ -22,6 +23,7 @@ const App = () => {
       <ButtonGradient />
       </div>
     </Suspense>
+    </>  
   );
 };
 
