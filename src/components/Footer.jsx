@@ -17,10 +17,10 @@ const Footer = () => {
 
           <div className="flex flex-col gap-3">
             {contactDetails.map((item) => (
-              <div key={item.id} className="flex items-center gap-3">
+              <a href={item.href} key={item.id} className="flex items-center gap-3 cursor-pointer">
                 <img src={item.iconUrl} width={18} height={18} alt={item.title} />
                 <p className="text-n-3 text-sm">{item.text}</p>
-              </div>
+              </a>
             ))}
           </div>
 

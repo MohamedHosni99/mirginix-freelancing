@@ -19,9 +19,9 @@ import serviceImage5 from "./services/image-5.jpg";
 
 
 import facebook from "./socials/facebook.svg";
-import twitter from "./socials/twitter.svg";
 import linkedin from "./socials/linkedin.svg";
 import youtube from "./socials/youtube.svg";
+import tiktok from "./socials/tiktok.svg"
 
 import location from "./contact/location.png"
 import call from "./contact/call.webp"
@@ -41,9 +41,9 @@ export {
   serviceImage4,
   serviceImage5,
   facebook,
-  twitter,
   linkedin,
   youtube,
+  tiktok,
   location,
   call,
   gmail

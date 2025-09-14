@@ -1,4 +1,5 @@
 
+import { href } from "react-router-dom";
 import {
   serviceIcon1,
   serviceIcon2,
@@ -11,7 +12,7 @@ import {
   facebook,
   linkedin,
   youtube,
-  twitter,
+  tiktok,
   location,
   call,
   gmail
@@ -70,29 +71,30 @@ export const services = [
 ];
 
 export const socials = [
-
   {
     id: "0",
-    title: "Twitter",
-    iconUrl: twitter,
+    title: "LinkedIn",
+    iconUrl: linkedin,
     url: "#",
   },
+  
   {
     id: "1",
     title: "Facebook",
     iconUrl: facebook,
     url: "#",
   },
+  
   {
     id: "2",
-    title: "LinkedIn",
-    iconUrl: linkedin,
+    title: "YouTube",
+    iconUrl: youtube,
     url: "#",
   },
   {
     id: "3",
-    title: "YouTube",
-    iconUrl: youtube,
+    title: "TikTok",
+    iconUrl: tiktok,
     url: "#",
   }
 
@@ -105,12 +107,14 @@ export const contactDetails = [
     title: "Phone",
     text: "+201151359456",
     iconUrl: call,
+    href: "tel:+201151359456"
   },
   {
     id: "1",
     title: "Email",
     text: "info@mirginx.com",
     iconUrl: gmail,
+    href: "mailto:info@mirginx.com"
   },
   {
     id: "2",
