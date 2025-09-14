@@ -10,6 +10,7 @@ import {
   serviceImage4,
   facebook,
   linkedin,
+  youtube,
   twitter,
   location,
   call,
@@ -88,6 +89,12 @@ export const socials = [
     iconUrl: linkedin,
     url: "#",
   },
+  {
+    id: "3",
+    title: "YouTube",
+    iconUrl: youtube,
+    url: "#",
+  }
 
 ];
 

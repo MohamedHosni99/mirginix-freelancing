@@ -18,7 +18,7 @@ const Hero = () => {
   const isRTL = i18n.language === "ar";
 
   return (
-    <Section className="pt-[5rem] -mt-[5.25rem]" id="hero">
+    <Section className="pt-[5rem]  -mt-[5.25rem]" id="hero">
       <div
         className={`container flex flex-col items-center justify-center lg:justify-between lg:gap-20 ${
           isRTL ? "lg:flex-row-reverse" : "lg:flex-row"

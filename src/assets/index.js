@@ -20,7 +20,8 @@ import serviceImage5 from "./services/image-5.jpg";
 
 import facebook from "./socials/facebook.svg";
 import twitter from "./socials/twitter.svg";
-import linkedin from "./socials/linkedin.png";
+import linkedin from "./socials/linkedin.svg";
+import youtube from "./socials/youtube.svg";
 
 import location from "./contact/location.png"
 import call from "./contact/call.webp"
@@ -42,6 +43,7 @@ export {
   facebook,
   twitter,
   linkedin,
+  youtube,
   location,
   call,
   gmail
