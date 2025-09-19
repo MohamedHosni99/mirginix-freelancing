@@ -76,6 +76,7 @@ export const socials = [
     title: "LinkedIn",
     iconUrl: linkedin,
     url: "#",
+    bg:"#0A66C2"
   },
   
   {
@@ -83,6 +84,7 @@ export const socials = [
     title: "Facebook",
     iconUrl: facebook,
     url: "#",
+    bg:"#1877F2"
   },
   
   {
@@ -90,12 +92,14 @@ export const socials = [
     title: "YouTube",
     iconUrl: youtube,
     url: "#",
+    bg:"#FF0000"
   },
   {
     id: "3",
     title: "TikTok",
     iconUrl: tiktok,
     url: "#",
+    bg:"#000000"
   }
 
 ];
@@ -112,9 +116,9 @@ export const contactDetails = [
   {
     id: "1",
     title: "Email",
-    text: "info@mirginx.com",
+    text: "support@mirginx.com",
     iconUrl: gmail,
-    href: "mailto:info@mirginx.com"
+    href: "mailto:support@mirginx.com"
   },
   {
     id: "2",

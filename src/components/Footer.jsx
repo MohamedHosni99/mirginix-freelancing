@@ -33,9 +33,16 @@ const Footer = () => {
                   href={item.url}
                   target="_blank"
                   rel="noreferrer"
-                  className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-transform duration-300 hover:scale-105"
+                  style={{ '--hover-color': item.bg }}
+                  className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition duration-300 hover:scale-105 hover:bg-[var(--hover-color)] group"
                 >
-                  <img src={item.iconUrl} width={16} height={16} alt={item.title} />
+                  <img 
+                  src={item.iconUrl} 
+                  width={16} 
+                  height={16} 
+                  alt={item.title} 
+                  className="transition duration-300 group-hover:invert group-hover:brightness-0 group-hover:contrast-100"
+                  />
                 </a>
               ))}
             </ul>
