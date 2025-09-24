@@ -83,7 +83,7 @@ export const socials = [
     id: "1",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.facebook.com/share/19wHv6Fgye/",
     bg:"#1877F2"
   },
   
@@ -91,14 +91,14 @@ export const socials = [
     id: "2",
     title: "YouTube",
     iconUrl: youtube,
-    url: "#",
+    url: "https://www.youtube.com/channel/UCQjgJweI33CBc6yPLjcuLcw/posts?pvf=CAI%253D",
     bg:"#FF0000"
   },
   {
     id: "3",
     title: "TikTok",
     iconUrl: tiktok,
-    url: "#",
+    url: "https://www.tiktok.com/@mirginx",
     bg:"#000000"
   }
 
@@ -115,13 +115,20 @@ export const contactDetails = [
   },
   {
     id: "1",
+    title: "Phone",
+    text: "+201034489700",
+    iconUrl: call,
+    href: "tel:+201034489700"
+  },
+  {
+    id: "2",
     title: "Email",
     text: "support@mirginx.com",
     iconUrl: gmail,
     href: "mailto:support@mirginx.com"
   },
   {
-    id: "2",
+    id: "3",
     title: "Location",
     text: "Alexandria, Egypt",
     iconUrl: location,
