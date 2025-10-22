@@ -75,7 +75,7 @@ export const socials = [
     id: "0",
     title: "LinkedIn",
     iconUrl: linkedin,
-    url: "#",
+    url: "https://www.linkedin.com/company/mirginx",
     bg:"#0A66C2"
   },
   
@@ -98,7 +98,7 @@ export const socials = [
     id: "3",
     title: "TikTok",
     iconUrl: tiktok,
-    url: "https://www.tiktok.com/@mirginx",
+    url: "https://www.tiktok.com/@mirginx.",
     bg:"#000000"
   }
 
